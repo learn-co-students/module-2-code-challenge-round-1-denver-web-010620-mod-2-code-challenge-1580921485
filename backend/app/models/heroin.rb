@@ -1,0 +1,2 @@
+class Heroin < ApplicationRecord
+end

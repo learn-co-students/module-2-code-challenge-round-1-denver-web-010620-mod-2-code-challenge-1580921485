@@ -5,3 +5,13 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Heroin.destroy_all
+
+anna = Heroin.new(name: 'Anna', super_name: "Supergirl")
+blue = Heroin.new(name: 'Blue', super_name: "Blue Ivy")
+cathy = Heroin.new(name: 'Cathy', super_name: "Cat Cathy")
+
+anna.save
+blue.save
+cathy.save
