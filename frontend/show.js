@@ -11,5 +11,6 @@ fetch(`http://localhost:3000/heroins/${id}`)
     p.innerText = heroin.super_name
 
     document.body.appendChild(h1,p)
+    
 })
 
